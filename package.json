@@ -1,0 +1,12 @@
+{
+  "name": "jalan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://sr1994lu@github.com/sr1994lu/js-jalan.git",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "prettier": "^1.5.2"
+  }
+}
