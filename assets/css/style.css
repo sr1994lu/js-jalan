@@ -1,0 +1,65 @@
+
+.card .row {
+  margin: 0 -0.75rem;
+}
+.card .row img.responsive-img {
+  vertical-align: bottom;
+  height: 100%;
+  max-width: none;
+}
+.card .row .image {
+  overflow: hidden;
+}
+.card .row .content {
+  padding: 10px;
+  padding-right: 25px;
+}
+.card .row ul {
+  margin: 0;
+  overflow: hidden;
+}
+.card .row ul li {
+  margin-left: 10px;
+}
+.card .row ul li:first-child {
+  margin-left: 0px;
+}
+.card .row ul i.left {
+  margin-left: 8px;
+}
+
+.navbar {
+  position: relative;
+  z-index: 10;
+}
+
+.main-area,
+.side-area {
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  overflow-y: scroll;
+}
+
+.side-area {
+  width: 30%;
+  right: auto;
+  left: 0;
+  border-right: 1px solid #ccc;
+}
+
+.main-area-inner,
+.side-area-inner {
+  padding-top: 64px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+}
